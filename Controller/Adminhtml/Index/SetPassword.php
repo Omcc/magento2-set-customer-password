@@ -1,6 +1,6 @@
 <?php
 
-namespace Actiview\SetCustomerPassword\Controller\Adminhtml\Index;
+namespace Swe\SetCustomerPassword\Controller\Adminhtml\Index;
 
 use Magento\Backend\App\Action\Context;
 use Magento\Customer\Api\CustomerRepositoryInterface;
@@ -44,7 +44,7 @@ class SetPassword extends \Magento\Backend\App\Action
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Actiview_SetCustomerPassword::set_password');
+        return $this->_authorization->isAllowed('Swe_SetCustomerPassword::set_password');
     }
 
     /**

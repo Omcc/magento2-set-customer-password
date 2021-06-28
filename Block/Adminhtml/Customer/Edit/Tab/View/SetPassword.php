@@ -1,13 +1,13 @@
 <?php
 
-namespace Actiview\SetCustomerPassword\Block\Adminhtml\Customer\Edit\Tab\View;
+namespace Swe\SetCustomerPassword\Block\Adminhtml\Customer\Edit\Tab\View;
 
 use Magento\Customer\Block\Adminhtml\Edit\Tab\View\PersonalInfo;
 
 /**
  * Class SetPassword
  *
- * @package Actiview\SetCustomerPassword\Block\Adminhtml\Customer\Edit\Tab\View
+ * @package Swe\SetCustomerPassword\Block\Adminhtml\Customer\Edit\Tab\View
  */
 class SetPassword extends PersonalInfo
 {
@@ -18,7 +18,7 @@ class SetPassword extends PersonalInfo
      */
     protected function _toHtml()
     {
-        if (!$this->_authorization->isAllowed('Actiview_SetCustomerPassword::set_password')) {
+        if (!$this->_authorization->isAllowed('Swe_SetCustomerPassword::set_password')) {
             return;
         }
 

@@ -1,5 +1,5 @@
 {
-    "name": "swe/magento2-set-customer-password",
+    "name": "swe/set-customer-password",
     "description": "Swe Magento 2 set customer password Module ",
     "type": "magento2-module",
     "version": "1.0.0",

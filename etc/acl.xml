@@ -4,12 +4,12 @@
         <resources>
             <resource id="Magento_Backend::admin">
                 <resource id="Magento_Customer::customer">
-                    <resource id="Actiview_SetCustomerPassword::set_password" title="Set Customer Password" sortOrder="30" />
+                    <resource id="Swe_SetCustomerPassword::set_password" title="Set Customer Password" sortOrder="30" />
                 </resource>
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="Actiview_SetCustomerPassword::config_section" title="Set Customer Password Section" />
+                            <resource id="Swe_SetCustomerPassword::config_section" title="Set Customer Password Section" />
                         </resource>
                     </resource>
                 </resource>
